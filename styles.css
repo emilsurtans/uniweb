@@ -1,0 +1,203 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    background: #ffffff;
+}
+.navbar{
+    padding-top: 20px !important;
+}
+.nav-item{
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.nav-link{
+    color: #000000 !important;
+    font-size: 12px !important; 
+    padding: 0 0 5px 0 !important; 
+    display: unset !important;
+}
+.navbar-brand img{
+    width: 125px;
+}
+.fa-bars{
+    color:#ffffff;
+    font-size: 40px !important;
+}
+.navbar-toggler{
+    border: 0 !important;
+    outline: none !important;
+    padding: initial !important;
+}
+.active-home{
+    border-bottom: 2px solid #000000;
+}
+.nav-link:hover{
+    border-bottom: 2px solid #000000;
+}
+.banner{
+    margin-top: 8%;
+}
+.banner h1{
+    margin: 80px 0 50px;
+    font-weight: 700;
+    font-size: 50px;
+}
+.banner img{
+    max-height: 500px;
+}
+.banner a{
+    padding: 12px;
+    width: 150px;
+    display: inline-block;
+    background: #ffffff;
+    text-decoration: none !important;
+    color: #000000;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+}
+.banner a:hover{
+    color: #ffffff
+}
+.express-btn{
+    background: #ffffff !important;
+    color: #000000 !important;
+    margin-right: 5px;
+}
+/*--------PAR MUMS-------*/
+.service{
+    margin: 75px 0;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.subtitle{
+    text-align: center;
+    font-weight: 70px;
+    font-size: 15px;
+}
+.service-box p{
+    color: #ffffff;
+}
+.service-box{
+    padding: 0 35px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+    transition: .4;
+}
+.service-box img{
+    width: 60px;
+    margin-top: 65px;
+    margin-bottom: 45px;
+}
+.service-box h6{
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.service-box p{
+    font-size: 14px;
+    color: #000000
+}
+.fa-arrow-right{
+    font-size: 22px !important;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+.service-box:hover,.active-service{
+    background: #000000;
+    border-radius: 5px;
+    color: #ffffff !important;
+    box-shadow: 0 15px 15px 2px rgb(213213213,0.5);
+}
+.service-box:hover p{
+    color: #ffffff !important;
+}
+.service-box .img-top{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 35;
+    z-index: 99;
+}
+.service-box:hover .img-top{
+    display: inline;
+}
+.active-service p{
+    color: #ffffff;
+}
+.product-list{
+    background-color: #ffffff;
+    padding: 3em;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    text-align: center;
+}
+.product-list .card{
+    background-color: white;
+    border-radius: 10px;
+    padding: 1em;
+    font-family: 'Poppins';
+    max-width: 100%;
+}
+.card .title{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.card img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+.card .text{
+    text-align: left;
+    margin-left: 2em;
+    margin-bottom: 0.5em;
+    font-size: 15px;
+}
+.product-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+
+}
+.image {
+    position: relative;
+    width: 400px;
+}
+.image__img {
+    display: block;
+    width: 100%;
+}
+.image__overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+.image__title{
+    font-size: 2em;
+    font-weight: bold;
+}
+.image__description{
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
+.image__overlay:hover{
+    opacity: 1;
+}
